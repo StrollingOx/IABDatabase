@@ -1,0 +1,52 @@
+CREATE TABLE `products` (
+	`ID` int NOT NULL AUTO_INCREMENT,
+	`type` enum NOT NULL DEFAULT 'piano',
+	`manufacturer` varchar(40) NOT NULL,
+	`mechanics` enum NOT NULL,
+	`productionYear` int NOT NULL,
+	`serialNumber` int NOT NULL,
+	`price` double NOT NULL,
+	PRIMARY KEY (`ID`)
+);
+
+CREATE TABLE `orderDetails` (
+	`orderID` int NOT NULL,
+	`supplierID` int NOT NULL,
+	`productID` int NOT NULL,
+	`quantity` int NOT NULL,
+	PRIMARY KEY (`orderID`)
+);
+
+CREATE TABLE `countries` (
+	`code` int NOT NULL,
+	`name` varchar(40) NOT NULL,
+	`continent` varchar(40) NOT NULL
+);
+
+CREATE TABLE `client` (
+	`ID` int NOT NULL,
+	`fullName` varchar(40) NOT NULL,
+	`email` varchar(80) NOT NULL,
+	`phoneNumber` int NOT NULL,
+	`gender` enum NOT NULL,
+	`PESEL` int NOT NULL,
+	`countryCode` int NOT NULL,
+	PRIMARY KEY (`ID`)
+);
+
+CREATE TABLE `orders` (
+	`ID` int NOT NULL,
+	`clientID` int NOT NULL,
+	`orderDate` DATE NOT NULL,
+	`status` enum NOT NULL,
+	PRIMARY KEY (`ID`)
+);
+
+CREATE TABLE `suppliers` (
+	`ID` int NOT NULL AUTO_INCREMENT,
+	`fullName` varchar(40) NOT NULL,
+	`email` varchar(80) NOT NULL,
+	`phoneNumber` int NOT NULL,
+	`clientID` varchar(40) NOT NULL,
+	PRIMARY KEY (`ID`)
+);
