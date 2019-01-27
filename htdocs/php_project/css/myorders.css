@@ -1,0 +1,25 @@
+div.order_details{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+button {
+   
+    width: 15%;
+	margin-left:5%;
+    height: 30px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+	border-radius: 30px;
+}
+
+button:hover {
+
+    background-color: #000;
+	color: #fff;
+
+}

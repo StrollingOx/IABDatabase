@@ -1,0 +1,284 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #ccc;
+}
+
+header img{
+  width:48px;
+  height:48px;
+  padding: 5px;
+  float:left;
+}
+
+header nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;  
+}
+
+header nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;  
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: arial;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 22px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #666;
+  color: #ffffff;
+}
+
+header .header-login {
+    float: right;
+}
+
+header .header-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .header-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .header-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+header .header-login form button:hover {
+
+    background-color: #ccc;
+
+}
+
+header .header-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+.login-status{
+	text-align: center;
+}
+
+/*****************************/
+.wrapper-main {
+    padding-top: 40px;
+}
+
+.wrapper-main  h1 {
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+.wrapper-main  h2 {
+    font-family: arial;
+    font-size: 20px;
+    color: #111
+    line-height: 50px;
+    text-align: center;
+}
+/*****************************/
+
+.signuperror{
+    text-align: center;
+	color: red;
+}
+
+.signupsuccess{
+    text-align: center;
+	color: green;
+}
+
+.form-signup {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.form-signup input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.form-signup button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-signup button:hover {
+    background-color: #111;
+}
+
+/*rent.php*/
+

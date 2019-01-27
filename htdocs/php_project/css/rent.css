@@ -1,0 +1,61 @@
+form{
+	width: 50%;
+	margin: auto;
+}
+
+
+label {
+	margin-left:23%;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+p{
+	text-align: center;
+	font-size: 16px;
+}
+
+.product_quantity{
+	margin-top: 10px;
+	width: 3%;
+	margin-right: 5%;
+	text-align:right;
+}
+	
+
+.dateinput{
+	width:30%;
+	margin-left: 35%;
+}
+
+input{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10px;
+	font-size: 16px;
+	height: 20px;
+	text-align: justify;
+}
+
+textarea{
+	width: 40%;
+	resize: vertical;
+	min-height: 30px;
+	max-height: 300px;
+	margin-left: 30%;
+}
+
+input, textarea{
+	outline: none;
+	border: 2px solid #ddd;
+}
+
+input:focus, textarea:focus{
+	box-shadow: 0 0 4px rgba(25, 25, 25, 0.5);
+	border: 2px. solid #ddd;
+}
+
+button{
+	margin-left:45%;
+	width: 10%;
+	height: 30px;
+}
